@@ -1,0 +1,17 @@
+body::before {
+    display: block;
+    content: '';
+    height: 85px;
+}
+
+iframe {
+    height: 300px;
+    width: 700px;
+    border-radius: 5px;
+}
+
+@media(min-width: 768px) {
+    .newsletter {
+        width: 50%;
+    }
+}
